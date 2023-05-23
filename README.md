@@ -16,4 +16,5 @@ IBT
 ### Project Prototype
 ![image](https://github.com/deujahritik/ISE-Capstone-Design-2023/assets/92029196/028fa211-2644-4dea-a419-bac87fcfb2d3)
 
+![image](https://github.com/deujahritik/ISE-Capstone-Design-2023/assets/92029196/cfe94914-f5ef-4dd4-a194-7d28369a71e7)
 
