@@ -1,6 +1,6 @@
 ###  Here's the  code that uses the webcam (camera) as the video source and allows us to exit the program by pressing the 'Esc' key:
 
-```
+```py
 import cv2
 
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
