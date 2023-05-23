@@ -18,7 +18,7 @@ cv2.imshow('img', img)
 cv2.waitKey()
 ```
 
-screenshot:
+### Screenshot:
 ![image](https://github.com/deujahritik/ISE-Capstone-Design-2023/assets/92029196/cfe94914-f5ef-4dd4-a194-7d28369a71e7)
 ![image](https://github.com/deujahritik/ISE-Capstone-Design-2023/assets/92029196/46ff3f8e-2745-4054-9bf5-a299035677f7)
 
