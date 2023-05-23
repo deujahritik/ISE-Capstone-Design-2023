@@ -13,5 +13,7 @@ IBT
 12184750 Ulugbek Oripov
 12200341 Shokhrukh Khayitov
 ```
+### Project Prototype
+![image](https://github.com/deujahritik/ISE-Capstone-Design-2023/assets/92029196/028fa211-2644-4dea-a419-bac87fcfb2d3)
 
 
