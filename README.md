@@ -81,6 +81,8 @@ IBT:
 
 *•Water pump 9V power supply Plants*
 
+# Codes
+## Humidity_temp.py
 
 # Implementng face detection system
 ## Step 1: Setting up the Raspberry Pi
