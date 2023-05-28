@@ -196,17 +196,17 @@ The next step is to install OpenCV on the Raspberry Pi. We will use the pre-buil
 
 1. Open the terminal on your Raspberry Pi and run the following command to update the package list:
 sql
-```
+```python
 sudo apt-get update
 ```
 2. Install OpenCV by running the following command:
 arduino
-```
+```python
 sudo apt-get install libopencv-dev python3-opencv
 ```
 3. Verify the installation by running the following command:
 scss
-```
+```python
 python3 -c "import cv2;print(cv2.__version__)"
 ```
 If the installation is successful, you should see the version of OpenCV printed on the screen.
