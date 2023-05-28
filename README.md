@@ -240,23 +240,23 @@ Now that we have trained the face detection model, we can implement the real-tim
 2. Create a new Python file and import the necessary libraries:
 
 python
-```
+```python
 import cv2
 import numpy as np
 ```
 3. Load the trained face detection model:
 python
-```
+```python
 face_cascade = cv2.CascadeClassifier('path/to/haar/cascade/xml/file')
 ```
 4. Initialize the video stream from the Raspberry Pi camera module:
 python
-```
+```python
 cap = cv2.VideoCapture(0)
 ```
 5. Start the main loop to capture and process the video frames:
 python
-```
+```python
 while True:
     # Read the video frame
     ret, frame = cap.read()
