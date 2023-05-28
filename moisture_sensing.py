@@ -1,36 +1,47 @@
-import RPi.GPIO as GPIO
-import time
+# Create an empty list to store pump status data
+pump_status_list = []
 
-# GPIO pin connected to the moisture sensor
-moisture_pin = 14
+# Initialize the pump status
+pump_status = "off"
 
-# GPIO pins connected to the water pump
-pump_pin = 15
+while True:
+    moisture_level = moisture_sensor.value * 100
+    print(f"Moisture level: {moisture_level:.2f}%")
 
-# Set up GPIO
-GPIO.setmode(GPIO.BCM)
-GPIO.setup(moisture_pin, GPIO.IN)
-GPIO.setup(pump_pin, GPIO.OUT)
+    if moisture_level < moisture_threshold:
+        #print('Moisture level is low. Watering the plant...')
+        print('Moisture level is sufficient.')
+        water_pump.on()  # Turn on the water pump
+        pump_status = "on"
+        time.sleep(5)  # Run the water pump for 5 seconds
+        water_pump.off()  # Turn off the water pump
+        print('Watering complete.')
+    else:
+        #print('Moisture level is sufficient.')
+        print('Moisture level is low. Watering the plant...')
+        pump_status = "off"
 
-# Define threshold moisture level
-threshold_moisture = 500  # Adjust this value according to your sensor's readings
+    # Get the current timestamp
+    current_time = str(datetime.now())
 
-# Function to control the water pump
-def control_water_pump(pump_status):
-    GPIO.output(pump_pin, pump_status)
+    # Create a dictionary with the pump status data
+    pump_status_data = {
+        "time": current_time,
+        "status": pump_status
+    }
 
-try:
-    while True:
-        # Read moisture level
-        moisture_level = GPIO.input(moisture_pin)
+    # Append the pump status data to the list
+    pump_status_list.append(pump_status_data)
 
-        if moisture_level < threshold_moisture:
-            print("Moisture level is low. Pumping water.")
-            control_water_pump(GPIO.HIGH)  # Turn on the water pump
-        else:
-            print("Moisture level is sufficient.")
+    # Generate a filename for the JSON file
+    filename = f"{data_folder}/pump_status.json"
 
-        time.sleep(1)  # Wait for 1 second before checking again
+    # Save all pump status data to a JSON file in column and row format
+    with open(filename, "w") as file:
+        json.dump(pump_status_list, file, indent=4)
 
-except KeyboardInterrupt:
-    GPIO.cleanup()
+    time.sleep(2)
+    
+    ```
+ 
+
