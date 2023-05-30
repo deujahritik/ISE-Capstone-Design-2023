@@ -71,15 +71,16 @@ IBT:
 *The Smart Plant Caring System simplifies and optimizes the process of indoor plant care. It provides real-time monitoring and smart control, relieving you from the routine of manual watering and enabling more efficient plant care. By detecting people, the system also adds an extra layer of security. The data storage and sharing capability offer valuable insights into your plant's growth pattern and environmental requirements.*
 
 ### Hardware Used
-*•Raspberry Pi 3 *
 
-*•Webcam Relay Moisture*
+* •Raspberry Pi 3 *
 
-*•humidity and temperature sensor*
+* •Webcam *
 
-*• Moisture sensor*
+* •humidity and temperature sensor *
 
-*•Water pump 9V power supply Plants*
+* • Moisture sensor *
+
+* •Water pump 9V power supply Plants *
 
 # Codes
 ## Humidity_temp.py
