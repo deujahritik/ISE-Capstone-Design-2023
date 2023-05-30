@@ -72,15 +72,15 @@ IBT:
 
 ### Hardware Used
 
-* •Raspberry Pi 3 *
+* Raspberry Pi 3 
 
-* •Webcam *
+* Webcam 
 
-* •humidity and temperature sensor *
+* humidity and temperature sensor 
 
-* • Moisture sensor *
+* Moisture sensor 
 
-* •Water pump 9V power supply Plants *
+* Water pump 9V power supply Plants 
 
 # Codes
 ## Humidity_temp.py
