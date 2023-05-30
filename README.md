@@ -82,6 +82,13 @@ IBT:
 
 * Water pump 9V power supply Plants 
 
+### Process Design
+![image](https://github.com/deujahritik/ISE-Capstone-Design-2023/assets/92029196/ad69bf58-c460-42c1-9d92-38645da35a38)
+
+### Hardware & Software Architecture
+
+![image](https://github.com/deujahritik/ISE-Capstone-Design-2023/assets/92029196/f1413186-543d-4f71-8e77-6abdb41004f4)
+
 # Codes
 ## Humidity_temp.py
 
