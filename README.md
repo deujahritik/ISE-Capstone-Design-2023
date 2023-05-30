@@ -56,13 +56,13 @@ IBT:
 *All collected data are stored in a JSON file and can be uploaded to the cloud for access from the web or other applications.*
 
 ### Advantages Over Existing Systems
-*•Intelligent Irrigation: Unlike traditional systems which irrigate on a set schedule, the Smart Plant Caring System adjusts irrigation based on real-time soil moisture levels, resulting in more efficient water usage and healthier plants. *
+* Intelligent Irrigation: Unlike traditional systems which irrigate on a set schedule, the Smart Plant Caring System adjusts irrigation based on real-time soil moisture levels, resulting in more efficient water usage and healthier plants. 
 
-*•Integrated Monitoring: The system monitors multiple factors (soil moisture, temperature, humidity), providing a comprehensive understanding of the plant's environment.*
+* Integrated Monitoring: The system monitors multiple factors (soil moisture, temperature, humidity), providing a comprehensive understanding of the plant's environment.
 
-*•Security Feature: The inclusion of people detection adds a layer of security not commonly found in traditional plant caring systems.*
+* Security Feature: The inclusion of people detection adds a layer of security not commonly found in traditional plant caring systems.
 
-*•Cloud Compatibility: The ability to upload data to the cloud makes it easy to monitor and analyze your plant's environment from anywhere, at any time.*
+* Cloud Compatibility: The ability to upload data to the cloud makes it easy to monitor and analyze your plant's environment from anywhere, at any time.
 
 ### Who can use it?
 *This system is ideal for indoor garden enthusiasts, smart home hobbyists, and those looking to implement an automated plant care solution at home, in an office, or any indoor setting. It is also a great learning tool for students and researchers in the fields of IoT and automation.*
